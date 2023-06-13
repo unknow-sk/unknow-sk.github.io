@@ -1,0 +1,106 @@
+/********** common setting **********/
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 40%;
+}
+
+.div {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+ }
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.unknow-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.unknow-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.unknow-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #00FFAD;
+    color: #192440;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #00e69c;
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+/********** banner **********/
+#banner {
+    background-size: cover;
+}
+
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 100px;
+}
+
+/********** copyright **********/
+#copyright {
+    background: #000000;
+    padding: 2rem 3rem;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
+
+/********** zoom **********/
+.zoom {
+    transition: transform .2s; 
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.2);
+}
